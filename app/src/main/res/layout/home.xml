@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF2D55"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:text="Coming Soon" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#FF2D55"
+        android:layout_marginBottom="5dp"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#83F4F4F4"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/tr_thumbnail"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/shadows_house"
+            android:background="#FF2D55"></ImageView>
+
+        <View
+            android:id="@+id/tr_vertical_divider"
+            android:layout_width="2dp"
+            android:layout_height="70dp"
+            android:background="#FF4A6C"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/tr_thumbnail"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border"
+            android:layout_toRightOf="@id/tr_vertical_divider">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:text="Shadows House"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:gravity="center|bottom"
+                android:textSize="12sp"
+                android:text="Episode 5 @ 5:30 PM"></TextView>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#83F4F4F4"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/tr_thumbnail2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/fruits_basket"
+            android:background="#FF2D55"></ImageView>
+
+        <View
+            android:id="@+id/tr_vertical_divider2"
+            android:layout_width="2dp"
+            android:layout_height="70dp"
+            android:background="#FF4A6C"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/tr_thumbnail2"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border"
+            android:layout_toRightOf="@id/tr_vertical_divider2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:text="Fruits Basket: The Final Season"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:gravity="center|bottom"
+                android:textSize="12sp"
+                android:text="Episode 7 @ 7:30 PM"></TextView>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF2D55"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:text="Today's Releases" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#FF2D55"
+        android:layout_marginBottom="5dp"></View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:background="@drawable/border"
+        android:text="Current Time: 02:05 PM"
+        android:textStyle="bold"
+        android:gravity="center_horizontal">
+
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#83F4F4F4"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/tr_thumbnail5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/eighty_six"
+            android:background="#FF2D55"></ImageView>
+
+        <View
+            android:id="@+id/tr_vertical_divider5"
+            android:layout_width="2dp"
+            android:layout_height="60dp"
+            android:background="#FF4A6C"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/tr_thumbnail5"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/border"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/tr_vertical_divider5">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".60"
+                android:textAlignment="center"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:text="86 EIGHTY-SIX"
+                tools:ignore="RtlCompat"></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".30"
+                android:textAlignment="center"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:text="12:30 pm"
+                tools:ignore="RtlCompat"></TextView>
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".10"
+                android:checked="true"></CheckBox>
+
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#83F4F4F4"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/tr_thumbnail3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/shadows_house"
+            android:background="#FF2D55"></ImageView>
+
+        <View
+            android:id="@+id/tr_vertical_divider3"
+            android:layout_width="2dp"
+            android:layout_height="60dp"
+            android:background="#FF4A6C"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/tr_thumbnail3"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/tr_vertical_divider3">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".60"
+                android:textAlignment="center"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:text="Shadows House"
+                tools:ignore="RtlCompat"></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".30"
+                android:textAlignment="center"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:text="05:30 pm"
+                tools:ignore="RtlCompat"></TextView>
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".10"></CheckBox>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#83F4F4F4"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/tr_thumbnail4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/fruits_basket"
+            android:background="#FF2D55"></ImageView>
+
+        <View
+            android:id="@+id/tr_vertical_divider4"
+            android:layout_width="2dp"
+            android:layout_height="60dp"
+            android:background="#FF4A6C"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/tr_thumbnail4"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/border"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/tr_vertical_divider4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".60"
+                android:textAlignment="center"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:text="Fruits Basket: The Final Season"
+                tools:ignore="RtlCompat"></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".30"
+                android:textAlignment="center"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:text="05:30 pm"
+                tools:ignore="RtlCompat"></TextView>
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".10"></CheckBox>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
